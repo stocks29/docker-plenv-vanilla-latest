@@ -1,3 +1,7 @@
+## How is this different from docker-plenv-vanilla?
+
+It only builds the latest version of perl
+
 ## Vanilla plenv perls for Docker
 
 Build file to build Docker image that has all Perls in its vanilla installed state.
@@ -22,5 +26,6 @@ docker run miyagawa/plenv -e PLENV_VERSION=5.18.0 bash -c ". /root/.plenv.sh; pl
 
 ## Author
 
-Tatsuhiko Miyagawa
+Bob Stockdale -- modified one config
 
+Tatsuhiko Miyagawa -- did all the work
